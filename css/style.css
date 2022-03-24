@@ -5,23 +5,34 @@
 body{
      overflow-y: scroll;
 }
+
+/* CLASS */
+
 .main-header{
      position: fixed;
      top: 0;
      width: 100%;
      display: flex;
      justify-content: space-between;
-     background: #0d4a63 url(/img/heic1509c.jpg);
+     background: url(/img/istock-178149253.jpg);
      /* background: #0c0c0c url(/img/istock-178149253.jpg); */
-     height: 70px;
+     height: 80px;
 } 
+
+.conteudo {
+     display: flex;
+     flex-wrap: wrap;
+}
 
 .main-header h1{
      color:white;
-     font-size: 40px;
+     font-size: 50px;
      padding:5px;
      padding-left: 50px;
+     
 }  
+
+/* LISTA */
 
 nav ul li {
      list-style: none;
@@ -33,7 +44,7 @@ nav ul li {
 nav ul li > a{
      text-decoration: none;
      color: white;
-     font-size: 20px;
+     font-size: 22px;
      padding: 1px;
      transition: padding 1s;
 }
