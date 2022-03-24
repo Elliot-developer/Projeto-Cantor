@@ -11,15 +11,16 @@ body{
      width: 100%;
      display: flex;
      justify-content: space-between;
-     /* background: #0c0c0c; */
-     background: url(/img/istock-178149253.jpg);
+     background: #0d4a63 url(/img/heic1509c.jpg);
+     /* background: #0c0c0c url(/img/istock-178149253.jpg); */
      height: 70px;
 } 
+
 .main-header h1{
      color:white;
      font-size: 40px;
      padding:5px;
-     /* padding-left: 50px; */
+     padding-left: 50px;
 }  
 
 nav ul li {
@@ -34,7 +35,7 @@ nav ul li > a{
      color: white;
      font-size: 20px;
      padding: 1px;
-     transition: padding 2s;
+     transition: padding 1s;
 }
 
 nav ul li a:hover {
