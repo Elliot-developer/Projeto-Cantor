@@ -1,36 +1,25 @@
+/* FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%22");
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Mrs+Sheppards&family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Homemade+Apple&family=Mrs+Sheppards&family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+
 *{
      padding:0;
      margin:0;
+     text-decoration: none;
 }
+
+html {
+     scroll-behavior: smooth;
+}
+
 body{
-     overflow-y: scroll;
+     /* overflow-y: scroll; */
+     width: 100%; 
 }
 
-/* CLASS */
-
-.main-header{
-     position: fixed;
-     top: 0;
-     width: 100%;
-     display: flex;
-     justify-content: space-between;
-     background: url(/img/istock-178149253.jpg);
-     /* background: #0c0c0c url(/img/istock-178149253.jpg); */
-     height: 80px;
-} 
-
-.conteudo {
-     display: flex;
-     flex-wrap: wrap;
-}
-
-.main-header h1{
-     color:white;
-     font-size: 50px;
-     padding:5px;
-     padding-left: 50px;
-     
-}  
+/* MENU | NAVEGAÇÃO */
 
 /* LISTA */
 
@@ -38,7 +27,7 @@ nav ul li {
      list-style: none;
      display: inline;
      padding: 30px;
-     line-height: 60px;
+     line-height: 75px;
      font-weight: 900;
 }
 nav ul li > a{
@@ -46,12 +35,117 @@ nav ul li > a{
      color: white;
      font-size: 22px;
      padding: 1px;
-     transition: padding 1s;
+     transition: padding 400ms;
 }
 
 nav ul li a:hover {
      background: #104e8b;
      padding:25px;
-     text-decoration: underline;
+     border-radius: 8px;
+}
+
+
+/* CLASS */
+
+.main-header{
+     position: fixed; 
+     top: 0;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     background-image: url("../img/istock-178149253.jpg");
+     height: 80px;
+} 
+
+
+.main-header h1{
+     color:white;
+     font-size: 50px;
+     padding:5px;
+     padding-left: 50px;
+     
+}    
+
+/* BIOGRAFIA */
+
+.biografia {
+     width: 100%; 
+     display: flex; 
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+     
+
+.biografia h2 {
+     font-size: 50px;
+     background-color: azure;
+     margin-bottom: 20px;
+     text-align: center;
+     font-family: 'Doppio One', sans-serif;
+}
+
+.p-biografia {
+     width: 70%;
+     font-size: 20px;
+     font-weight: lighter;
+}
+
+.conteudo {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
      
 }
+
+.contato {
+     width: 100%; 
+     display: flex; 
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+.contato h2 {
+     font-size: 50px;
+     background-color: azure;
+     margin-bottom: 20px;
+     text-align: center;
+     font-family: 'Doppio One', sans-serif;
+}
+
+.contato p {
+     font-size: 18px;
+}
+
+/* IMAGENS */
+
+.img {
+     width: 100%;
+}
+
+/* MUSICAS */
+
+.msc {
+     background-color: rgb(97, 127, 143);
+     /* display: flex; */
+     justify-content: center;
+     text-align: center;
+} 
+
+.msc p {
+     font-size: 20px;
+     color: white;
+     background-color: #43688d;
+}
+
+.msc p a:hover {
+     color: rgb(139, 139, 139);
+}
+
+.msc p a {
+     color: white;
+     text-decoration: none;
+}
+
